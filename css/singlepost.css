@@ -1,0 +1,22 @@
+.hero_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post_content_container {
+    max-width: 800px; /* Adjust the max-width as needed */
+    width: 100%;
+    padding: 0 20px; /* Adjust the padding as needed */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    margin: 40px 0; /* Adjust the margin as needed */
+}
+
+.post_content {
+    text-align: justify;
+    text-indent: 20px; /* Adjust the indentation as needed */
+}
+
+.post_content h2 {
+    text-align: left; /* Align headings to the left */
+}
